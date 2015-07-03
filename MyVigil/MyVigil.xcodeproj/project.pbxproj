@@ -13,6 +13,13 @@
 		5CC84C1E1B467AFA006F5528 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC84C1D1B467AFA006F5528 /* Images.xcassets */; };
 		5CC84C211B467AFA006F5528 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CC84C1F1B467AFA006F5528 /* LaunchScreen.xib */; };
 		5CC84C2D1B467AFA006F5528 /* MyVigilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC84C2C1B467AFA006F5528 /* MyVigilTests.swift */; };
+		5CC84C401B467B23006F5528 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC84C3F1B467B23006F5528 /* InterfaceController.swift */; };
+		5CC84C421B467B23006F5528 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC84C411B467B23006F5528 /* NotificationController.swift */; };
+		5CC84C441B467B23006F5528 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC84C431B467B23006F5528 /* Images.xcassets */; };
+		5CC84C481B467B23006F5528 /* MyVigil WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 5CC84C471B467B23006F5528 /* MyVigil WatchKit App.app */; };
+		5CC84C501B467B23006F5528 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC84C4E1B467B23006F5528 /* Interface.storyboard */; };
+		5CC84C521B467B23006F5528 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC84C511B467B23006F5528 /* Images.xcassets */; };
+		5CC84C551B467B23006F5528 /* MyVigil WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5CC84C3A1B467B23006F5528 /* MyVigil WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +30,35 @@
 			remoteGlobalIDString = 5CC84C101B467AFA006F5528;
 			remoteInfo = MyVigil;
 		};
+		5CC84C491B467B23006F5528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC84C091B467AFA006F5528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC84C461B467B23006F5528;
+			remoteInfo = "MyVigil WatchKit App";
+		};
+		5CC84C531B467B23006F5528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC84C091B467AFA006F5528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC84C391B467B23006F5528;
+			remoteInfo = "MyVigil WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CC84C5C1B467B23006F5528 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5CC84C551B467B23006F5528 /* MyVigil WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5CC84C111B467AFA006F5528 /* MyVigil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVigil.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +71,16 @@
 		5CC84C261B467AFA006F5528 /* MyVigilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyVigilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC84C2B1B467AFA006F5528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CC84C2C1B467AFA006F5528 /* MyVigilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVigilTests.swift; sourceTree = "<group>"; };
+		5CC84C3A1B467B23006F5528 /* MyVigil WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MyVigil WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC84C3D1B467B23006F5528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC84C3E1B467B23006F5528 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5CC84C3F1B467B23006F5528 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5CC84C411B467B23006F5528 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5CC84C431B467B23006F5528 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CC84C471B467B23006F5528 /* MyVigil WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyVigil WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC84C4D1B467B23006F5528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC84C4F1B467B23006F5528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5CC84C511B467B23006F5528 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +98,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CC84C371B467B23006F5528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +113,8 @@
 			children = (
 				5CC84C131B467AFA006F5528 /* MyVigil */,
 				5CC84C291B467AFA006F5528 /* MyVigilTests */,
+				5CC84C3B1B467B23006F5528 /* MyVigil WatchKit Extension */,
+				5CC84C4B1B467B23006F5528 /* MyVigil WatchKit App */,
 				5CC84C121B467AFA006F5528 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +124,8 @@
 			children = (
 				5CC84C111B467AFA006F5528 /* MyVigil.app */,
 				5CC84C261B467AFA006F5528 /* MyVigilTests.xctest */,
+				5CC84C3A1B467B23006F5528 /* MyVigil WatchKit Extension.appex */,
+				5CC84C471B467B23006F5528 /* MyVigil WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +168,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5CC84C3B1B467B23006F5528 /* MyVigil WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5CC84C3F1B467B23006F5528 /* InterfaceController.swift */,
+				5CC84C411B467B23006F5528 /* NotificationController.swift */,
+				5CC84C431B467B23006F5528 /* Images.xcassets */,
+				5CC84C3C1B467B23006F5528 /* Supporting Files */,
+			);
+			path = "MyVigil WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5CC84C3C1B467B23006F5528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC84C3D1B467B23006F5528 /* Info.plist */,
+				5CC84C3E1B467B23006F5528 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CC84C4B1B467B23006F5528 /* MyVigil WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5CC84C4E1B467B23006F5528 /* Interface.storyboard */,
+				5CC84C511B467B23006F5528 /* Images.xcassets */,
+				5CC84C4C1B467B23006F5528 /* Supporting Files */,
+			);
+			path = "MyVigil WatchKit App";
+			sourceTree = "<group>";
+		};
+		5CC84C4C1B467B23006F5528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC84C4D1B467B23006F5528 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +216,12 @@
 				5CC84C0D1B467AFA006F5528 /* Sources */,
 				5CC84C0E1B467AFA006F5528 /* Frameworks */,
 				5CC84C0F1B467AFA006F5528 /* Resources */,
+				5CC84C5C1B467B23006F5528 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5CC84C541B467B23006F5528 /* PBXTargetDependency */,
 			);
 			name = MyVigil;
 			productName = MyVigil;
@@ -150,6 +246,39 @@
 			productReference = 5CC84C261B467AFA006F5528 /* MyVigilTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5CC84C391B467B23006F5528 /* MyVigil WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC84C591B467B23006F5528 /* Build configuration list for PBXNativeTarget "MyVigil WatchKit Extension" */;
+			buildPhases = (
+				5CC84C361B467B23006F5528 /* Sources */,
+				5CC84C371B467B23006F5528 /* Frameworks */,
+				5CC84C381B467B23006F5528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC84C4A1B467B23006F5528 /* PBXTargetDependency */,
+			);
+			name = "MyVigil WatchKit Extension";
+			productName = "MyVigil WatchKit Extension";
+			productReference = 5CC84C3A1B467B23006F5528 /* MyVigil WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		5CC84C461B467B23006F5528 /* MyVigil WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC84C561B467B23006F5528 /* Build configuration list for PBXNativeTarget "MyVigil WatchKit App" */;
+			buildPhases = (
+				5CC84C451B467B23006F5528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyVigil WatchKit App";
+			productName = "MyVigil WatchKit App";
+			productReference = 5CC84C471B467B23006F5528 /* MyVigil WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +294,12 @@
 					5CC84C251B467AFA006F5528 = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 5CC84C101B467AFA006F5528;
+					};
+					5CC84C391B467B23006F5528 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5CC84C461B467B23006F5528 = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -183,6 +318,8 @@
 			targets = (
 				5CC84C101B467AFA006F5528 /* MyVigil */,
 				5CC84C251B467AFA006F5528 /* MyVigilTests */,
+				5CC84C391B467B23006F5528 /* MyVigil WatchKit Extension */,
+				5CC84C461B467B23006F5528 /* MyVigil WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +339,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC84C381B467B23006F5528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC84C481B467B23006F5528 /* MyVigil WatchKit App.app in Resources */,
+				5CC84C441B467B23006F5528 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC84C451B467B23006F5528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC84C501B467B23006F5528 /* Interface.storyboard in Resources */,
+				5CC84C521B467B23006F5528 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +380,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CC84C361B467B23006F5528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC84C421B467B23006F5528 /* NotificationController.swift in Sources */,
+				5CC84C401B467B23006F5528 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +396,16 @@
 			isa = PBXTargetDependency;
 			target = 5CC84C101B467AFA006F5528 /* MyVigil */;
 			targetProxy = 5CC84C271B467AFA006F5528 /* PBXContainerItemProxy */;
+		};
+		5CC84C4A1B467B23006F5528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC84C461B467B23006F5528 /* MyVigil WatchKit App */;
+			targetProxy = 5CC84C491B467B23006F5528 /* PBXContainerItemProxy */;
+		};
+		5CC84C541B467B23006F5528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC84C391B467B23006F5528 /* MyVigil WatchKit Extension */;
+			targetProxy = 5CC84C531B467B23006F5528 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +424,14 @@
 				5CC84C201B467AFA006F5528 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		5CC84C4E1B467B23006F5528 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC84C4F1B467B23006F5528 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +572,62 @@
 			};
 			name = Release;
 		};
+		5CC84C571B467B23006F5528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = MyVigil_WatchKit_Extension;
+				INFOPLIST_FILE = "MyVigil WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		5CC84C581B467B23006F5528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = MyVigil_WatchKit_Extension;
+				INFOPLIST_FILE = "MyVigil WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		5CC84C5A1B467B23006F5528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyVigil WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CC84C5B1B467B23006F5528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MyVigil WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +653,22 @@
 			buildConfigurations = (
 				5CC84C341B467AFA006F5528 /* Debug */,
 				5CC84C351B467AFA006F5528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CC84C561B467B23006F5528 /* Build configuration list for PBXNativeTarget "MyVigil WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC84C571B467B23006F5528 /* Debug */,
+				5CC84C581B467B23006F5528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CC84C591B467B23006F5528 /* Build configuration list for PBXNativeTarget "MyVigil WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC84C5A1B467B23006F5528 /* Debug */,
+				5CC84C5B1B467B23006F5528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
