@@ -647,6 +647,7 @@
 				5CC84C321B467AFA006F5528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CC84C331B467AFA006F5528 /* Build configuration list for PBXNativeTarget "MyVigilTests" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +656,7 @@
 				5CC84C351B467AFA006F5528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CC84C561B467B23006F5528 /* Build configuration list for PBXNativeTarget "MyVigil WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +665,7 @@
 				5CC84C581B467B23006F5528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CC84C591B467B23006F5528 /* Build configuration list for PBXNativeTarget "MyVigil WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -671,6 +674,7 @@
 				5CC84C5B1B467B23006F5528 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
