@@ -19,6 +19,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="sendMessage:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0NR-ZT-alj"/>
                                     <segue destination="bSa-ws-Nd8" kind="modal" id="miE-JM-Tc7"/>
                                 </connections>
                             </button>
@@ -28,7 +29,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140.80000000000001" y="53.960000000000001"/>
+            <point key="canvasLocation" x="140" y="53"/>
         </scene>
         <!--HELP Page-->
         <scene sceneID="0cl-LS-jzt">
