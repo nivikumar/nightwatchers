@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>4E439CEB-E5D2-433D-84B6-61549BED47DB</string>
 	<key>IDESourceControlProjectName</key>
-	<string>MyVigil</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>FB91A5B8CB3D286F8914541A043521BA8C687FB6</key>
 		<string>https://github.com/nivikumar/nightwatchers.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MyVigil/MyVigil.xcodeproj</string>
+	<string>MyVigil/MyVigil.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>FB91A5B8CB3D286F8914541A043521BA8C687FB6</key>

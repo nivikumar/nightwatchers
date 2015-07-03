@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C5B5E241B4682B100F3A2F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC84C1A1B467AFA006F5528 /* Main.storyboard */; };
+		5C5B5E251B4682B200F3A2F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC84C1A1B467AFA006F5528 /* Main.storyboard */; };
+		5C5B5E261B4682B300F3A2F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC84C1A1B467AFA006F5528 /* Main.storyboard */; };
+		5C5B5E281B46878A00F3A2F2 /* WatchStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5B5E271B46878A00F3A2F2 /* WatchStoryboard.storyboard */; };
 		5CC84C171B467AFA006F5528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC84C161B467AFA006F5528 /* AppDelegate.swift */; };
 		5CC84C191B467AFA006F5528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC84C181B467AFA006F5528 /* ViewController.swift */; };
 		5CC84C1C1B467AFA006F5528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC84C1A1B467AFA006F5528 /* Main.storyboard */; };
@@ -61,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C5B5E271B46878A00F3A2F2 /* WatchStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WatchStoryboard.storyboard; sourceTree = "<group>"; };
 		5CC84C111B467AFA006F5528 /* MyVigil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVigil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC84C151B467AFA006F5528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CC84C161B467AFA006F5528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +144,7 @@
 				5CC84C1D1B467AFA006F5528 /* Images.xcassets */,
 				5CC84C1F1B467AFA006F5528 /* LaunchScreen.xib */,
 				5CC84C141B467AFA006F5528 /* Supporting Files */,
+				5C5B5E271B46878A00F3A2F2 /* WatchStoryboard.storyboard */,
 			);
 			path = MyVigil;
 			sourceTree = "<group>";
@@ -330,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CC84C1C1B467AFA006F5528 /* Main.storyboard in Resources */,
+				5C5B5E281B46878A00F3A2F2 /* WatchStoryboard.storyboard in Resources */,
 				5CC84C211B467AFA006F5528 /* LaunchScreen.xib in Resources */,
 				5CC84C1E1B467AFA006F5528 /* Images.xcassets in Resources */,
 			);
@@ -339,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5B5E241B4682B100F3A2F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5B5E251B4682B200F3A2F2 /* Main.storyboard in Resources */,
 				5CC84C481B467B23006F5528 /* MyVigil WatchKit App.app in Resources */,
 				5CC84C441B467B23006F5528 /* Images.xcassets in Resources */,
 			);
@@ -355,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5B5E261B4682B300F3A2F2 /* Main.storyboard in Resources */,
 				5CC84C501B467B23006F5528 /* Interface.storyboard in Resources */,
 				5CC84C521B467B23006F5528 /* Images.xcassets in Resources */,
 			);
@@ -525,6 +535,7 @@
 				INFOPLIST_FILE = MyVigil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -535,6 +546,7 @@
 				INFOPLIST_FILE = MyVigil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

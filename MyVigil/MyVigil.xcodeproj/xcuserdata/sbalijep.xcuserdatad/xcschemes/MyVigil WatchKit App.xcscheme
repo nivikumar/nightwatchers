@@ -75,28 +75,18 @@
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
-      allowLocationSimulation = "YES">
-      <RemoteRunnable
-         runnableDebuggingMode = "2"
-         BundleIdentifier = "com.apple.springboard"
-         RemotePath = "/MyVigil">
+      allowLocationSimulation = "YES"
+      notificationPayloadFile = "MyVigil WatchKit Extension/PushNotificationPayload.apns">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5CC84C461B467B23006F5528"
-            BuildableName = "MyVigil WatchKit App.app"
-            BlueprintName = "MyVigil WatchKit App"
+            BlueprintIdentifier = "5CC84C101B467AFA006F5528"
+            BuildableName = "MyVigil.app"
+            BlueprintName = "MyVigil"
             ReferencedContainer = "container:MyVigil.xcodeproj">
          </BuildableReference>
-      </RemoteRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5CC84C461B467B23006F5528"
-            BuildableName = "MyVigil WatchKit App.app"
-            BlueprintName = "MyVigil WatchKit App"
-            ReferencedContainer = "container:MyVigil.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
