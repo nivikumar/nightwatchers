@@ -28,4 +28,5 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBOutlet weak var Timer: WKInterfaceButton!
 }
