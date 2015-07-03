@@ -68,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C987FEB1B473E9400E6B3AB /* MyVigil.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MyVigil.entitlements; sourceTree = "<group>"; };
 		5CC84C111B467AFA006F5528 /* MyVigil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVigil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC84C151B467AFA006F5528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CC84C161B467AFA006F5528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +151,7 @@
 		5CC84C131B467AFA006F5528 /* MyVigil */ = {
 			isa = PBXGroup;
 			children = (
+				5C987FEB1B473E9400E6B3AB /* MyVigil.entitlements */,
 				5CF0FEA21B46933F005A49A9 /* Login-Storyboard.storyboard */,
 				5CC84C161B467AFA006F5528 /* AppDelegate.swift */,
 				5CC84C181B467AFA006F5528 /* ViewController.swift */,
@@ -308,6 +310,12 @@
 				TargetAttributes = {
 					5CC84C101B467AFA006F5528 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 4V5ER8X7AB;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					5CC84C251B467AFA006F5528 = {
 						CreatedOnToolsVersion = 6.4;
@@ -544,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyVigil/MyVigil.entitlements;
 				INFOPLIST_FILE = MyVigil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -555,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyVigil/MyVigil.entitlements;
 				INFOPLIST_FILE = MyVigil/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
