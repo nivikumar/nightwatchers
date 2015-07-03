@@ -24,6 +24,10 @@
 		5CC84C501B467B23006F5528 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC84C4E1B467B23006F5528 /* Interface.storyboard */; };
 		5CC84C521B467B23006F5528 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC84C511B467B23006F5528 /* Images.xcassets */; };
 		5CC84C551B467B23006F5528 /* MyVigil WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5CC84C3A1B467B23006F5528 /* MyVigil WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5CC84C5E1B4682C0006F5528 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC84C5D1B4682C0006F5528 /* MessageUI.framework */; };
+		5CC84C601B4682C9006F5528 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC84C5F1B4682C9006F5528 /* AddressBook.framework */; };
+		5CC84C621B4682D0006F5528 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC84C611B4682D0006F5528 /* AddressBookUI.framework */; };
+		5CC84C641B468431006F5528 /* Login-Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC84C631B468431006F5528 /* Login-Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +90,10 @@
 		5CC84C4D1B467B23006F5528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CC84C4F1B467B23006F5528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		5CC84C511B467B23006F5528 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CC84C5D1B4682C0006F5528 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5CC84C5F1B4682C9006F5528 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		5CC84C611B4682D0006F5528 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		5CC84C631B468431006F5528 /* Login-Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Login-Storyboard.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC84C621B4682D0006F5528 /* AddressBookUI.framework in Frameworks */,
+				5CC84C601B4682C9006F5528 /* AddressBook.framework in Frameworks */,
+				5CC84C5E1B4682C0006F5528 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +127,9 @@
 		5CC84C081B467AFA006F5528 = {
 			isa = PBXGroup;
 			children = (
+				5CC84C611B4682D0006F5528 /* AddressBookUI.framework */,
+				5CC84C5F1B4682C9006F5528 /* AddressBook.framework */,
+				5CC84C5D1B4682C0006F5528 /* MessageUI.framework */,
 				5CC84C131B467AFA006F5528 /* MyVigil */,
 				5CC84C291B467AFA006F5528 /* MyVigilTests */,
 				5CC84C3B1B467B23006F5528 /* MyVigil WatchKit Extension */,
