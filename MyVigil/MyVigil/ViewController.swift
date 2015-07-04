@@ -12,13 +12,18 @@ import MessageUI
 class ViewController: UIViewController,MFMessageComposeViewControllerDelegate {
     
     @IBAction func sendMessage(sender: AnyObject) {
+        println("*****In sendMessage *******")
         var messageVC = MFMessageComposeViewController()
+        println("****After Message Compose View Controller **** " )
         
         messageVC.body = "Hey this is a test message by myVigil";
         messageVC.recipients = ["4082193595"]
         messageVC.messageComposeDelegate = self;
-        
+       
+        dispatch_async(dispatch_get_main_queue(),{
+        println(messageVC.body)
         self.presentViewController(messageVC, animated: false, completion: nil)
+        })
     }
     
   
@@ -44,6 +49,14 @@ class ViewController: UIViewController,MFMessageComposeViewControllerDelegate {
         case MessageComposeResultSent.value:
             println("Message was sent")
             self.dismissViewControllerAnimated(true, completion: nil)
+            let helpVC:HelpViewController = HelpViewController()
+           // let helpVC:HelpViewController=self.storyboard!.instantiateViewControllerWithIdentifier("HelpViewController")
+         //   helpVC.view.backgroundColor=UIColor.redColor()
+          
+            self.presentViewController(helpVC, animated: true, completion: nil)
+
+
+            
         default:
             break;
         }

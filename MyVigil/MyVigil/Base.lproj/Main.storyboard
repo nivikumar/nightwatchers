@@ -20,7 +20,6 @@
                                 </state>
                                 <connections>
                                     <action selector="sendMessage:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0NR-ZT-alj"/>
-                                    <segue destination="bSa-ws-Nd8" kind="modal" id="miE-JM-Tc7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -34,7 +33,7 @@
         <!--HELP Page-->
         <scene sceneID="0cl-LS-jzt">
             <objects>
-                <viewController storyboardIdentifier="sandeep" title="HELP Page" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bSa-ws-Nd8" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sandeep" title="HELP Page" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bSa-ws-Nd8" customClass="HelpViewController" customModule="MyVigil" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lzg-ed-zWq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,6 +48,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="M7w-zD-9ns"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g8d-Y3-5Yb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
