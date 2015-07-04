@@ -69,6 +69,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C987FEB1B473E9400E6B3AB /* MyVigil.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MyVigil.entitlements; sourceTree = "<group>"; };
 		5CC84C111B467AFA006F5528 /* MyVigil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVigil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC84C151B467AFA006F5528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CC84C161B467AFA006F5528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
